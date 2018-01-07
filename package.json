@@ -1,0 +1,46 @@
+{
+  "name": "candyland-dependency",
+  "version": "0.0.0",
+  "author": "Candyland team",
+  "description": "📷 Image watermarking dependency for the Candyland web app",
+  "license": "MIT",
+  "homepage": "https://github.com/klauscfhq/candyland-dependency#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klauscfhq/candyland-dependency.git"
+  },
+  "bugs": {
+    "url": "https://github.com/klauscfhq/candyland-dependency/issues"
+  },
+  "scripts": {
+    "dist": "node index.js",
+    "start": "node server.js",
+    "clean": "node ./bin/clean.js",
+    "test": "xo"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chalk": "^2.0.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "formidable": "^1.1.1",
+    "fs-extra": "^5.0.0",
+    "image-watermark": "0.0.7",
+    "meow": "^4.0.0",
+    "ms": "^2.1.1",
+    "multer": "^1.3.0",
+    "progress-stream": "^2.0.0",
+    "request": "^2.83.0",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "xo": "^0.19.0"
+  },
+  "xo": {
+    "space": 2,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
