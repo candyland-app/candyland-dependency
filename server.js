@@ -121,7 +121,7 @@ app.post('/uploads', (req, res) => {
         // Display image
         res.write('<img style=\'max-width:400px\' src=\'' + imageFilePath + '\'/>');
         res.end();
-      }, ms('2s'));
+      }, ms('4s'));
       console.log(green('✔ Image Uploaded: ') + magenta(originalFileName));
     }
   });
