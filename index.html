@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <title>Candyland Dependency - 📷 Image watermarking dependency for the Candyland web app</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <style>
+    .background {
+      background: #f46b45;
+      background: -webkit-linear-gradient(to left, #eea849, #f46b45);
+      background: linear-gradient(to left, #eea849, #f46b45);
+    }
+
+    img.center {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body class="">
+  <div class="container">
+    <div class="row center">
+      </br>
+      <img class="materialboxed center" width="20%" src="https://raw.githubusercontent.com/klauscfhq/candyland-docs/master/media/logo.png?token=AMFWSR1IoczO8OOmjqa6MdgBuuQG-F4Jks5aWrqBwA%3D%3D">
+      </br>
+      <h5>📷 Image watermarking dependency for the Candyland web app</h5>
+    </div>
+    <div class="row center">
+      <h4>Define a Watermark and Choose an Image to Upload.</h4>
+    </div>
+    <form action="/uploads" method="POST" enctype="multipart/form-data">
+      <div class="row center"><br/>
+        <input type="text" id="watermark" name="watermark" value="Fill-in your Watermark." /><br/><br/>
+        <input type="file" name="fileName">
+        <input type="submit" value="Upload Image">
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
