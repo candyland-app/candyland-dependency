@@ -3,8 +3,12 @@
 </h1>
 
 <h4 align="center">
-  📷 Image watermarking dependency for the Candyland web app
+  📷 Image watermarking dependency for the Candyland web app<br/>
 </h4>
+
+<div align="center">
+<img src="/media/demo.gif" width="45%">
+</div>
 
 ## Related
 
