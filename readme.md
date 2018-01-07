@@ -96,7 +96,7 @@ If not provided the `default color` red `rgb(255, 0, 0)` will be used.
 
 ## Development
 
-The only app dependency is [imagemagick](https://github.com/ImageMagick/ImageMagick).
+The only **external** app dependency is [`imagemagick`](https://github.com/ImageMagick/ImageMagick).
 
 You can get it straight from your system's official software repositories or by manually downloading the binaries from the [official imagemagick homepage](https://www.imagemagick.org/script/download.php).
 
