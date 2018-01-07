@@ -6,8 +6,8 @@ const fs = require('fs-extra');
 const chalk = require('chalk');
 const multer = require('multer');
 const express = require('express');
-const watermark = require('image-watermark');
 const progress = require('progress-stream');
+const watermark = require('./index');
 
 const join = path.join;
 const resolve = path.resolve;
@@ -115,11 +115,7 @@ app.post('/uploads', (req, res) => {
         color: 'rgb(255, 0, 0)'
       };
       // Add watermark on image
-      watermark.embedWatermarkWithCb(imageFilePath, options, err => {
-        if (!err) {
-          console.log(green('✔ Watermark Embeded: ') + magenta(watermarkText));
-        }
-      });
+      watermark.addWatermark(imageFilePath, options.dstPath, options.text, options.color);
       // Minor delay to sync image display
       setTimeout(() => {
         // Display image
