@@ -25,6 +25,10 @@ Building the image watermarking dependency for the Candyland webapp.
 
 ## Development
 
+The only app dependency is [imagemagick](https://github.com/ImageMagick/ImageMagick).
+
+You can get it straight from your system's official software repositories or by manually downloading the binaries from the [official imagemagick homepage](https://www.imagemagick.org/script/download.php).
+
 - [Clone](https://help.github.com/articles/cloning-a-repository/) this repository to your local machine
 - Navigate to your clone `cd candyland-dependency`
 - Install the dependencies `npm install`
