@@ -19,6 +19,7 @@
 
 - [Related](#related)
 - [Description](#description)
+- [Usage](#usage)
 - [Development](#development)
 - [Team](#team)
 - [License](#license)
@@ -26,6 +27,19 @@
 ## Description
 
 Building the image watermarking dependency for the Candyland webapp.
+
+# Usage
+
+```js
+const watermak = require('./index');
+
+const inputImage = 'dogo.png';  // Input image path
+const color = 'rgb(255, 0, 0)'; // Watermark text color
+const text = 'Super Awesome Dogo!'; // Watermark text
+const outputImage = 'dogoWatermarked.png';  // Output image path
+
+watermark.addWatermark(inputImage, outputImage, text, color);
+```
 
 ## Development
 
