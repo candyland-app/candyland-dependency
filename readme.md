@@ -1,5 +1,5 @@
 <h1 align="center">
-  Candyland Dependency
+<img src="/media/logo.png" width="30%"><br/>Candyland Dependency
 </h1>
 
 <h4 align="center">
@@ -7,7 +7,7 @@
 </h4>
 
 <div align="center">
-<img src="/media/demo.gif" width="45%">
+<img src="/media/demo.gif" width="50%">
 </div>
 
 ## Related
