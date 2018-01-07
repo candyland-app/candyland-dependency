@@ -20,6 +20,7 @@
 - [Related](#related)
 - [Description](#description)
 - [Usage](#usage)
+- [API](#api)
 - [Development](#development)
 - [Team](#team)
 - [License](#license)
@@ -28,7 +29,7 @@
 
 Building the image watermarking dependency for the Candyland webapp.
 
-# Usage
+## Usage
 
 ```js
 const watermak = require('./index');
@@ -40,6 +41,56 @@ const outputImage = 'dogoWatermarked.png';  // Output image path
 
 watermark.addWatermark(inputImage, outputImage, text, color);
 ```
+
+## API
+
+### addWatermak`(input, output, text, color)`
+
+Example: `addWatermak.('Hello.png', 'world.png', 'Hello World', 'rgb(0, 255, 0)');`
+
+#### `input`
+
+Type: `String`
+
+Optional: `False`
+
+Default Value: `None`
+
+Path of input `png`, `jpg`, `gif` image file.
+
+#### `output`
+
+Type: `String`
+
+Optional: `True`
+
+Default Value: `Input file path`
+
+Path of output `png`, `jpg`, `gif` image file.
+If not provided the input file will be overriden.
+
+#### `text`
+
+Type: `String`
+
+Optional: `True`
+
+Default Value: `'Candyland Watermark'`
+
+Text to be user as watermark on input image file.
+If not provided the default text value will be used.
+
+#### `color`
+
+Type: `String`
+
+Optional: `True`
+
+Default Value: `rgb(255, 0, 0)`
+
+Color to be used for the watermark text.
+Any  `rgb` color value is valid to be used.
+If not provided the default color red `rgb(255, 0, 0)` will be used.
 
 ## Development
 
