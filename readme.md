@@ -10,7 +10,7 @@
 <img src="/media/demo.gif" width="60%"><br/><br/><br/>
 </div>
 
-[![Build Status](https://travis-ci.com/klauscfhq/candyland-dependency.svg?token=rXPPxPTH1doiuVrFnjqh&branch=master)](https://travis-ci.com/klauscfhq/candyland-dependency) [![Dependency Status](https://dependencyci.com/github/klauscfhq/candyland-dependency/badge)](https://dependencyci.com/github/klauscfhq/candyland-dependency) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/klauscfhq/candyland-dependency)
+[![Heroku Deployed](https://img.shields.io/badge/heroku-deployed-brightgreen.svg)](https://candyland-dep.herokuapp.com/) [![Build Status](https://travis-ci.com/klauscfhq/candyland-dependency.svg?token=rXPPxPTH1doiuVrFnjqh&branch=master)](https://travis-ci.com/klauscfhq/candyland-dependency) [![Dependency Status](https://dependencyci.com/github/klauscfhq/candyland-dependency/badge)](https://dependencyci.com/github/klauscfhq/candyland-dependency) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/klauscfhq/candyland-dependency)
 
 ## Related
 
@@ -30,6 +30,8 @@
 ## Description
 
 Building the image watermarking dependency for the Candyland webapp.
+
+You can view a live app demo [here](https://candyland-dep.herokuapp.com/).
 
 ## Usage
 
