@@ -71,7 +71,7 @@ Path of input `png`, `jpg`, `gif` image file.
 - Default Value: `Input file path`
 
 Path of output `png`, `jpg`, `gif` image file.<br/>
-If not provided the input file will be overridden.
+If not provided the output file will be saved at the home directory under the name `~/candyland-watermark.png`.
 
 #### `text`
 
