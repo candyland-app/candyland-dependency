@@ -127,7 +127,9 @@ app.post('/uploads', (req, res) => {
   });
 });
 
-app.listen(3000, () => {
-  // Initialize local server
-  console.log(green('✔ Server Initialized @') + magenta(' http://localhost:3000'));
+// Set-up server port - default 3000
+const serverPort = process.env.PORT || 3000;
+// Initialize local server
+app.listen(serverPort, () => {
+  console.log(green('✔ Server Initialized @') + magenta(' http://localhost:' + serverPort));
 });
