@@ -3,11 +3,11 @@
 </h1>
 
 <h4 align="center">
-  📷 Image watermarking dependency for the Candyland web app<br/>
+  📷 Image watermarking dependency for the Candyland web app<br/><br/>
 </h4>
 
 <div align="center">
-<img src="/media/demo.gif" width="50%">
+<img src="/media/demo.gif" width="60%"><br/><br/><br/>
 </div>
 
 [![Build Status](https://travis-ci.com/klauscfhq/candyland-dependency.svg?token=rXPPxPTH1doiuVrFnjqh&branch=master)](https://travis-ci.com/klauscfhq/candyland-dependency) [![Dependency Status](https://dependencyci.com/github/klauscfhq/candyland-dependency/badge)](https://dependencyci.com/github/klauscfhq/candyland-dependency) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/klauscfhq/candyland-dependency)
