@@ -50,47 +50,47 @@ Example: `addWatermak.('Hello.png', 'world.png', 'Hello World', 'rgb(0, 255, 0)'
 
 #### `input`
 
-Type: `String`
+- Type: `String`
 
-Optional: `False`
+- Optional: `False`
 
-Default Value: `None`
+- Default Value: `None`
 
 Path of input `png`, `jpg`, `gif` image file.
 
 #### `output`
 
-Type: `String`
+- Type: `String`
 
-Optional: `True`
+- Optional: `True`
 
-Default Value: `Input file path`
+- Default Value: `Input file path`
 
-Path of output `png`, `jpg`, `gif` image file.
-If not provided the input file will be overriden.
+Path of output `png`, `jpg`, `gif` image file.<br/>
+If not provided the input file will be overridden.
 
 #### `text`
 
-Type: `String`
+- Type: `String`
 
-Optional: `True`
+- Optional: `True`
 
-Default Value: `'Candyland Watermark'`
+- Default Value: `'Candyland Watermark'`
 
-Text to be user as watermark on input image file.
-If not provided the default text value will be used.
+Text to be user as watermark on input image file.<br/>
+If not provided the `default text` value will be used.
 
 #### `color`
 
-Type: `String`
+- Type: `String`
 
-Optional: `True`
+- Optional: `True`
 
-Default Value: `rgb(255, 0, 0)`
+- Default Value: `rgb(255, 0, 0)`
 
-Color to be used for the watermark text.
-Any  `rgb` color value is valid to be used.
-If not provided the default color red `rgb(255, 0, 0)` will be used.
+Color to be used for the watermark text.<br/>
+Any  `rgb` color value is valid to be used.<br/>
+If not provided the `default color` red `rgb(255, 0, 0)` will be used.
 
 ## Development
 
