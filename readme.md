@@ -133,6 +133,7 @@ You can get it straight from your system's official software repositories or by 
 - Install the dependencies `npm install`
 - Build the development server `npm start`
 - Run the API `npm run dist`
+- Run the CLI interface `npm run cli`
 - Cleanup assets & compiled files `npm run clean`
 
 ## Team

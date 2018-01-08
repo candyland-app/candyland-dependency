@@ -14,6 +14,7 @@
   },
   "scripts": {
     "dist": "node index.js",
+    "cli": "node cli.js --help",
     "start": "node server.js",
     "clean": "node ./bin/clean.js",
     "test": "xo"
