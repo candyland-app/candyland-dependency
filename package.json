@@ -1,6 +1,6 @@
 {
   "name": "candyland-dependency",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Candyland team",
   "description": "📷 Image watermarking dependency for the Candyland web app",
   "license": "MIT",
