@@ -21,6 +21,7 @@
 
 - [Related](#related)
 - [Description](#description)
+- [CLI](#cli)
 - [Usage](#usage)
 - [API](#api)
 - [Development](#development)
@@ -32,6 +33,31 @@
 Building the image watermarking dependency for the Candyland webapp.
 
 You can view a live app demo [here](https://candyland-dep.herokuapp.com/).
+
+## CLI
+
+```
+$ node cli.js --help
+
+  📷 Image watermarking dependency for the Candyland web app
+
+  Usage
+    $ node cli.js [<options> ...]
+
+  Options
+    --help, -h        Display help message
+    --input, -i       Input file path
+    --output, -o      Output file path
+    --text, -t        Watermark text
+    --color, -c       Watermark RGB color value
+    --version, -v     Display installed version
+
+  Examples
+    $ node cli.js --help
+    $ node cli.js -i dogo.png -t 'Super Dogo!'
+    $ node cli.js -i dogo.png -o super-dogo.png -t 'Super Dogo!'
+    $ node cli.js -i dogo.png -t 'Super Dogo!' -c 'rgba(0, 255, 0)'
+```
 
 ## Usage
 
