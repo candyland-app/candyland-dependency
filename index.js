@@ -26,7 +26,7 @@ const defaultOuputPath = join(homeDir, defaultOuput);  // Default output path
 
 const helpMessage = `
   Usage
-    $ node cli.js [options]
+    $ node cli.js [<options> ...]
 
     Options
       --help, -h        Display help message
@@ -39,8 +39,8 @@ const helpMessage = `
     Examples
       $ node cli.js --help
       $ node cli.js -i dogo.png -t 'Super Dogo!'
+      $ node cli.js -i dogo.png -o super-dogo.png -t 'Super Dogo!'
       $ node cli.js -i dogo.png -t 'Super Dogo!' -c 'rgba(0, 255, 0)'
-      $ node cli.js -i dogo.png -o super-dogo.png -t 'Super Dogo!' -c 'rgba(0, 0, 255)'
 `;
 
 function invalidInput(fileType) {
