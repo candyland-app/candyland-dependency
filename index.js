@@ -106,4 +106,18 @@ function addWatermark(inputFile, outputFile, text, color) {
   }
 }
 
-module.exports = {addWatermark, helpMessage};
+const watermarkCLI = (input, flags) => {
+  // Parse & pack CLI agruments
+  const argsCLI = {
+    inputFile: flags.input,
+    outputFile: flags.output,
+    watermarkText: flags.text,
+    watermarkColor: flags.color
+  };
+  // Call addWatermark() on given arguments
+  addWatermark(argsCLI.inputFile, argsCLI.outputFile, argsCLI.watermarkText, argsCLI.watermarkColor);
+
+  return 0;
+};
+
+module.exports = {watermarkCLI, addWatermark, helpMessage};
