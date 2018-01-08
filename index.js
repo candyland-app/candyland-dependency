@@ -26,20 +26,21 @@ const defaultOuputPath = join(homeDir, defaultOuput);  // Default output path
 
 const helpMessage = `
   Usage
-    $ watermark [option]
+    $ node cli.js [options]
 
     Options
       --help, -h        Display help message
-      --color, -c       Watermark text color
-      --text, -t        Watermark text
+      --input, -i       Input file path
       --output, -o      Output file path
+      --text, -t        Watermark text
+      --color, -c       Watermark RGB color value
       --version, -v     Display installed version
 
     Examples
-      $ watermark --help
-      $ watermark -i panda.png -c red
-      $ watermark -i unicorns.png -c green -t 'Unicorns'
-      $ watermark -i cupcakes.png -c blue -t 'Cupcake' -o cupcake.png
+      $ node cli.js --help
+      $ node cli.js -i dogo.png -t 'Super Dogo!'
+      $ node cli.js -i dogo.png -t 'Super Dogo!' -c 'rgba(0, 255, 0)'
+      $ node cli.js -i dogo.png -o super-dogo.png -t 'Super Dogo!' -c 'rgba(0, 0, 255)'
 `;
 
 function invalidInput(fileType) {
